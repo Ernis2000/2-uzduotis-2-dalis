@@ -90,3 +90,22 @@ Optimizuoti studentų skirstymo būdai ir padaryti spartos testai
 
 Naudojant antrą strategiją programos vykdymo laikas labai išaugo arba net nebaigė vykdymo.
 Trečia strategija yra greičiausia jei naudojama su vektoriais, o naudojant deque, pirma strategija yra greitesnė
+
+# v1.1
+
+Struktūra pakeista į klasę, kodas taip pat pakiestas ten kur reikėjo.
+
+Programos su struktūrom ir programos su klasėm spartos testai
+
+| Įrašų kiekis | struct | class |
+|:------------ |:-------|:------|
+|100000        |19,072  |9,280  |
+|1000000       |96,382  |72,419 |
+
+Taip atlikti testai naudojant 01, 02, 03 optimizavimo vėliavėles
+
+| Įrašų kiekis | 01     | 02    | 03    |
+|:------------ |:-------|:------|:------|
+|100000        |16,199  |14,531 |13,364 |
+|1000000       |71,345  |83,323 |78,043 |
+
