@@ -109,3 +109,4 @@ Taip atlikti testai naudojant 01, 02, 03 optimizavimo vėliavėles
 |100000        |16,199  |14,531 |13,364 |
 |1000000       |71,345  |83,323 |78,043 |
 
+01 vėliavėlė yra greičiausia kai naudojami mažesnio dydžio failai, o 03 grečiausia kai naudojami didesnio dydžio failai, pagal duomenis galima teigti, kad 03 yra optimaliausia
