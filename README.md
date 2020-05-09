@@ -114,3 +114,7 @@ Taip atlikti testai naudojant 01, 02, 03 optimizavimo vėliavėles
 # v1.2
 
 Panaudota Rule of three taisyklė ir pridėti operatoriai, kuriuos gal norėtų panaudoti vartotojas
+
+# v1.5
+
+Sukurta nauja bazinė klasė "zmogus", o klasė "Studentas" yra dabar jos išvestinė klasė
