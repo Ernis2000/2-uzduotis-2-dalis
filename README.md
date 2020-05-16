@@ -118,3 +118,9 @@ Panaudota Rule of three taisyklė ir pridėti operatoriai, kuriuos gal norėtų 
 # v1.5
 
 Sukurta nauja bazinė klasė "zmogus", o klasė "Studentas" yra dabar jos išvestinė klasė
+
+# v2.0
+
+- Padaryta doxygen dokumentacija
+- Padaryti keli unit testai naudojant Google Test framework
+ ![](Documents/Lightshot/Screenshot_12.png)
