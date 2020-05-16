@@ -1,0 +1,107 @@
+\hypertarget{_header_8h}{}\doxysection{Header.\+h File Reference}
+\label{_header_8h}\index{Header.h@{Header.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$deque$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_zmogus}{Zmogus}}
+\item 
+class \mbox{\hyperlink{class_studentas}{Studentas}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_header_8h_a03c4de0981b4ed7919086298a54ba9ff}{sukurimas}} (int temp\+\_\+ndkiekis, int irasukiekis)
+\item 
+void \mbox{\hyperlink{_header_8h_a31cc95604db7f351579ab4e45b791494}{skaitymas}} (std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&studentai, int irasukiekis)
+\item 
+bool \mbox{\hyperlink{_header_8h_af95d9d600fa589a2db3dc1d6c7bd0809}{rikiavimas}} (\mbox{\hyperlink{class_studentas}{Studentas}} s1, \mbox{\hyperlink{class_studentas}{Studentas}} s2)
+\item 
+void \mbox{\hyperlink{_header_8h_a3b6e74070786caab079c02d58390302b}{skirstymas}} (std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&studentai, std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&liudeseliai, std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&neliudeseliai, int kriterijus)
+\item 
+void \mbox{\hyperlink{_header_8h_a27efee6c6a6ea6c6928f5f518e6a3927}{Spausdinimas}} (std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&studentai, std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ liudeseliai, std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ neliudeseliai, int kriterijus)
+\item 
+bool \mbox{\hyperlink{_header_8h_ac9446cf44ee5e6d9592c5e1d8d96032a}{skolavid}} (\mbox{\hyperlink{class_studentas}{Studentas}} \&studentai)
+\item 
+bool \mbox{\hyperlink{_header_8h_add5c5813fcb1684f2b96b091cfb4a5ed}{skolamed}} (\mbox{\hyperlink{class_studentas}{Studentas}} \&studentai)
+\item 
+void \mbox{\hyperlink{_header_8h_abbb17d12c45f1ad5c686155942e49e8d}{skaiciavimai2}} (std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&studentai)
+\item 
+double \mbox{\hyperlink{_header_8h_a395b34cf43f7bd43d0fef177b995eecc}{vidurkioskaiciavimas}} (std\+::vector$<$ double $>$ testnd)
+\item 
+double \mbox{\hyperlink{_header_8h_a52dcd6bff359d5a9a938a862e3f57997}{medianosskaiciavimas}} (std\+::vector$<$ double $>$ testnd)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_header_8h_a52dcd6bff359d5a9a938a862e3f57997}\label{_header_8h_a52dcd6bff359d5a9a938a862e3f57997}} 
+\index{Header.h@{Header.h}!medianosskaiciavimas@{medianosskaiciavimas}}
+\index{medianosskaiciavimas@{medianosskaiciavimas}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{medianosskaiciavimas()}{medianosskaiciavimas()}}
+{\footnotesize\ttfamily double medianosskaiciavimas (\begin{DoxyParamCaption}\item[{std\+::vector$<$ double $>$}]{testnd }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_af95d9d600fa589a2db3dc1d6c7bd0809}\label{_header_8h_af95d9d600fa589a2db3dc1d6c7bd0809}} 
+\index{Header.h@{Header.h}!rikiavimas@{rikiavimas}}
+\index{rikiavimas@{rikiavimas}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{rikiavimas()}{rikiavimas()}}
+{\footnotesize\ttfamily bool rikiavimas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_studentas}{Studentas}}}]{s1,  }\item[{\mbox{\hyperlink{class_studentas}{Studentas}}}]{s2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_abbb17d12c45f1ad5c686155942e49e8d}\label{_header_8h_abbb17d12c45f1ad5c686155942e49e8d}} 
+\index{Header.h@{Header.h}!skaiciavimai2@{skaiciavimai2}}
+\index{skaiciavimai2@{skaiciavimai2}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{skaiciavimai2()}{skaiciavimai2()}}
+{\footnotesize\ttfamily void skaiciavimai2 (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&}]{studentai }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_a31cc95604db7f351579ab4e45b791494}\label{_header_8h_a31cc95604db7f351579ab4e45b791494}} 
+\index{Header.h@{Header.h}!skaitymas@{skaitymas}}
+\index{skaitymas@{skaitymas}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{skaitymas()}{skaitymas()}}
+{\footnotesize\ttfamily void skaitymas (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&}]{studentai,  }\item[{int}]{irasukiekis }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_a3b6e74070786caab079c02d58390302b}\label{_header_8h_a3b6e74070786caab079c02d58390302b}} 
+\index{Header.h@{Header.h}!skirstymas@{skirstymas}}
+\index{skirstymas@{skirstymas}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{skirstymas()}{skirstymas()}}
+{\footnotesize\ttfamily void skirstymas (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&}]{studentai,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&}]{liudeseliai,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&}]{neliudeseliai,  }\item[{int}]{kriterijus }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_add5c5813fcb1684f2b96b091cfb4a5ed}\label{_header_8h_add5c5813fcb1684f2b96b091cfb4a5ed}} 
+\index{Header.h@{Header.h}!skolamed@{skolamed}}
+\index{skolamed@{skolamed}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{skolamed()}{skolamed()}}
+{\footnotesize\ttfamily bool skolamed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_studentas}{Studentas}} \&}]{studentai }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_ac9446cf44ee5e6d9592c5e1d8d96032a}\label{_header_8h_ac9446cf44ee5e6d9592c5e1d8d96032a}} 
+\index{Header.h@{Header.h}!skolavid@{skolavid}}
+\index{skolavid@{skolavid}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{skolavid()}{skolavid()}}
+{\footnotesize\ttfamily bool skolavid (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_studentas}{Studentas}} \&}]{studentai }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_a27efee6c6a6ea6c6928f5f518e6a3927}\label{_header_8h_a27efee6c6a6ea6c6928f5f518e6a3927}} 
+\index{Header.h@{Header.h}!Spausdinimas@{Spausdinimas}}
+\index{Spausdinimas@{Spausdinimas}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{Spausdinimas()}{Spausdinimas()}}
+{\footnotesize\ttfamily void Spausdinimas (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$ \&}]{studentai,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$}]{liudeseliai,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_studentas}{Studentas}} $>$}]{neliudeseliai,  }\item[{int}]{kriterijus }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_a03c4de0981b4ed7919086298a54ba9ff}\label{_header_8h_a03c4de0981b4ed7919086298a54ba9ff}} 
+\index{Header.h@{Header.h}!sukurimas@{sukurimas}}
+\index{sukurimas@{sukurimas}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{sukurimas()}{sukurimas()}}
+{\footnotesize\ttfamily void sukurimas (\begin{DoxyParamCaption}\item[{int}]{temp\+\_\+ndkiekis,  }\item[{int}]{irasukiekis }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_header_8h_a395b34cf43f7bd43d0fef177b995eecc}\label{_header_8h_a395b34cf43f7bd43d0fef177b995eecc}} 
+\index{Header.h@{Header.h}!vidurkioskaiciavimas@{vidurkioskaiciavimas}}
+\index{vidurkioskaiciavimas@{vidurkioskaiciavimas}!Header.h@{Header.h}}
+\doxysubsubsection{\texorpdfstring{vidurkioskaiciavimas()}{vidurkioskaiciavimas()}}
+{\footnotesize\ttfamily double vidurkioskaiciavimas (\begin{DoxyParamCaption}\item[{std\+::vector$<$ double $>$}]{testnd }\end{DoxyParamCaption})}
+
