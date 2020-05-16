@@ -123,4 +123,5 @@ Sukurta nauja bazinė klasė "zmogus", o klasė "Studentas" yra dabar jos išves
 
 - Padaryta doxygen dokumentacija
 - Padaryti keli unit testai naudojant Google Test framework
- ![](Documents/Lightshot/Screenshot_12.png)
+ ![Screenshot_12](https://user-images.githubusercontent.com/56826586/82121280-62fe2c00-9794-11ea-90e5-a091b4c5da56.png)
+
