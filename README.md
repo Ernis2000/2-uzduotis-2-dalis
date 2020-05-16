@@ -3,7 +3,7 @@
 ## Įdiegimo instrukcija
 
 - Parsisiųsti naujausią programos versiją iš "releases" skilties
-- Parsisiųsti Codeblocks IDE ir atsidaryti .cbp failą
+- Parsisiųsti Visual Studio IDE ir atsidaryti .sln failą
 
 Arba
 
